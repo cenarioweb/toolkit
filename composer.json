@@ -20,5 +20,12 @@
         "psr-4": {
             "CenarioWeb\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "aliases": {
+                "Toolkit": "CenarioWeb\\Toolkit"
+            }
+        }
     }
 }
