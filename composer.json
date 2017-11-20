@@ -18,12 +18,12 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "CenarioWeb\\": "src/"
+            "CenarioWeb\\Toolkit\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "CenarioWeb\\ToolkitTests\\": "tests/"
         }
     },
     "extra": {
