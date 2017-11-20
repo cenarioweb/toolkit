@@ -21,11 +21,19 @@
             "CenarioWeb\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
     "extra": {
         "laravel": {
             "aliases": {
                 "Toolkit": "CenarioWeb\\Toolkit"
             }
         }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit --colors=always"
     }
 }
