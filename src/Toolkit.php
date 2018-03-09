@@ -1,6 +1,6 @@
 <?php
 
-namespace CenarioWeb;
+namespace CenarioWeb\Toolkit;
 
 class Toolkit
 {

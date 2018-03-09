@@ -18,7 +18,12 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "CenarioWeb\\": "src/"
+            "CenarioWeb\\Toolkit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CenarioWeb\\ToolkitTests\\": "tests/"
         }
     },
     "extra": {
@@ -27,5 +32,8 @@
                 "Toolkit": "CenarioWeb\\Toolkit"
             }
         }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit --colors=always"
     }
 }
